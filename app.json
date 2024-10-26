@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "digital_wardrobe",
-    "slug": "digital_wardrobe",
+    "slug": "digitalwardrobe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,25 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ]
+      ]
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fa47a178-0952-40db-b69c-3fb26f2e6e63"
+      }
+    },
+    "owner": "samyadel"
   }
 }
